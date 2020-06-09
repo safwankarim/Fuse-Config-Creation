@@ -1,0 +1,114 @@
+{
+	"hasArcgis": false,
+	"useNavbar": false,
+	"useIframe": true,
+	"projectInfo": {
+		"number": 123456,
+		"name": "Example Project Name",
+		"acronym": "EPN",
+		"url": "#"
+	},
+	"titleBar": {
+		"brands" : [
+			{
+				"acronym": "Arup",
+				"image": "./src/media/arup.svg",
+				"url": "https://www.arup.com"
+			}
+		],
+		"colors": {
+			"bg": "rgb(0,60,105)",
+			"text": "white"
+		},
+		"font": {
+			"family": "Open Sans",
+			"requireStylesheet": true,
+			"stylesheet": "https://fonts.googleapis.com/css?family=Open+Sans&display=swap",
+			"brands": {
+				"size": "10pt",
+				"weight": "normal",
+				"style": "normal"
+			},
+			"project": {
+				"size": "12pt",
+				"weight": "bolder",
+				"style": "normal"
+			},
+			"username": {
+				"size": "10pt",
+				"weight": "normal",
+				"style": "italic"
+			}
+		},
+		"displayOpts": {
+			"username": {
+				"useGreeting": true,
+				"usePhoto": true
+			},
+			"brands": {
+				"useLogo": true
+			}
+		}
+	},
+	"navbar": {
+		"colors": {
+			"bg": "rgb(0,60,105)",
+			"text": "white",
+			"icons": "white"
+		},
+		"font": {
+			"family": "Open Sans",
+			"requireStylesheet": true,
+			"stylesheet": "https://fonts.googleapis.com/css?family=Open+Sans&display=swap",
+			"size": "13pt",
+			"weight": "bold",
+			"style": "normal"
+		},
+		"homeURL": "",
+		"tabs": [
+			{
+				"title": "",
+				"description": "",
+				"mdIcon": "",
+				"url": "",
+				"openInNewTab": false,
+				"ADGroups": [],
+				"hoverText": "Open in new Tab"
+			}
+		]
+	},
+
+	"tiles": {
+		"body": {
+			"colors": {
+				"bg": "rgb(0,60,105)",
+				"text": "white"
+			},
+			"font": {
+				"family": "Open Sans",
+				"requireStylesheet": true,
+				"stylesheet": "https://fonts.googleapis.com/css?family=Open+Sans&display=swap",
+				"weight": "bold",
+				"style": "normal"
+			}
+		},
+		"data": [
+			{
+				"title": "",
+				"description": "",
+				"image": "",
+				"url": "",
+				"openInNewTab": false,
+				"ADGroups": [],
+				"hoverText": "Open in new Tab"
+			}
+		]
+	},
+
+	"body": {
+		"colors": {
+			"bg": "rgb(200, 200, 200)",
+			"text": "black"
+		}
+	}
+}
